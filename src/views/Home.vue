@@ -1,8 +1,32 @@
 <template>
   <div class="flex">
-    <div class="w-20 flex-none flex flex-col min-h-screen h-screen">
+    <div class="bg-gray-900 w-20 flex-none flex flex-col min-h-screen h-screen px-2 py-2">
       <div class="overflow-y-auto" >
-        logos Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, quaerat quibusdam, amet veritatis blanditiis adipisci laborum totam delectus aperiam quo, recusandae labore nihil sequi nisi et. Esse ut iusto ab, minima vel quasi fugit eius perspiciatis. Eius aliquam minima numquam repellat a corrupti? Nemo obcaecati deserunt, ex facilis quam quis possimus ratione aliquid reiciendis autem nulla commodi, placeat quibusdam voluptatem officiis voluptatibus accusamus, mollitia animi rem quos iste. Minima pariatur praesentium aut nam, repellat quas deleniti sed veniam, molestias modi animi laboriosam laudantium quos optio rem repudiandae dolor sunt labore, blanditiis quia nobis! Ratione quidem tempore totam, blanditiis, quia harum delectus aliquid tenetur dolorem voluptates rerum enim consequuntur tempora nihil quod accusamus. Doloremque, repellendus! Iure, quae aperiam! Asperiores quidem quia soluta excepturi culpa consequatur commodi ex? Mollitia deleniti et enim sed ullam amet magnam sint quasi? Id fugit dolores iusto non nobis, odit cupiditate voluptate velit! Reprehenderit odit maxime voluptate velit ipsa? Esse aperiam dolore, repudiandae, suscipit tempora exercitationem optio ad alias odit praesentium nostrum. At corrupti temporibus atque labore commodi aspernatur asperiores esse facere, officiis incidunt expedita cumque similique rem aperiam quos accusantium sapiente rerum repellendus ullam est consequuntur voluptas dignissimos. Quibusdam quidem deleniti quasi autem aliquid voluptatum enim!
+        <ul class="text-center" >
+          <li >
+            <a href="#">
+              <img class="w-12 h-12 rounded-full mx-auto" src="@/assets/images/icon_discord.svg" />
+            </a>
+            <div class="border-b border-gray-700 mx-2 my-3" />
+          </li>
+          <li >
+            <a href="#">
+              <img class="w-12 h-12 rounded-full mx-auto" src="@/assets/images/icon_vue.svg" />
+            </a>
+            <div class="border-b border-gray-700 mx-2 my-3" />
+          </li>
+          <li >
+            <a href="#">
+              <img class="w-12 h-12 rounded-full mx-auto" src="@/assets/images/icon_laravel.svg" />
+            </a>
+            <div class="border-b border-gray-700 mx-2 my-3" />
+          </li>
+          <li>
+            <a class="w-12 h-12 bg-gray-800 hover:bg-teal-500 text-teal-800 hover:text-white inline-block rounded-full" href="#">
+              <svg class="mx-auto mt-3" fill="currentColor" width="24" height="24"><path d="M24 10H14V0h-4v10H0v4h10v10h4V14h10z"/></svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
     <div class="flex flex-col min-h-screen h-screen w-screen" >
@@ -26,3 +50,10 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data: () => ({
+  })
+}
+</script>
